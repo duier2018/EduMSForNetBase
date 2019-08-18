@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EduClient</class>
+ <widget class="QMainWindow" name="EduClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EduClient</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>610</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOption">
+    <property name="title">
+     <string>Teacher</string>
+    </property>
+    <addaction name="actionTeacherInfo"/>
+    <addaction name="actionTeaSchedule"/>
+    <addaction name="actionTeachPlan"/>
+    <addaction name="actionEnterGrade"/>
+    <addaction name="actionTeaChangPswd"/>
+   </widget>
+   <widget class="QMenu" name="menuStudent">
+    <property name="title">
+     <string>Student</string>
+    </property>
+    <addaction name="actionStudentInfo"/>
+    <addaction name="actionStuSchedule"/>
+    <addaction name="actionPickCourse"/>
+    <addaction name="actionQueryGrade"/>
+    <addaction name="actionStuChangePswd"/>
+   </widget>
+   <addaction name="menuOption"/>
+   <addaction name="menuStudent"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::NoToolBarArea</set>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="actionTeacherInfo"/>
+   <addaction name="actionTeaSchedule"/>
+   <addaction name="actionTeachPlan"/>
+   <addaction name="actionEnterGrade"/>
+   <addaction name="actionTeaChangPswd"/>
+   <addaction name="actionStudentInfo"/>
+   <addaction name="actionStuSchedule"/>
+   <addaction name="actionPickCourse"/>
+   <addaction name="actionQueryGrade"/>
+   <addaction name="actionStuChangePswd"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionTeacherInfo">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/my.png</normaloff>:/icons/my.png</iconset>
+   </property>
+   <property name="text">
+    <string>TeacherInfo</string>
+   </property>
+  </action>
+  <action name="actionTeaSchedule">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/schedule.png</normaloff>:/icons/schedule.png</iconset>
+   </property>
+   <property name="text">
+    <string>TeaSchedule</string>
+   </property>
+  </action>
+  <action name="actionTeachPlan">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/teaches.png</normaloff>:/icons/teaches.png</iconset>
+   </property>
+   <property name="text">
+    <string>TeachPlan</string>
+   </property>
+  </action>
+  <action name="actionEnterGrade">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/exam_system.png</normaloff>:/icons/exam_system.png</iconset>
+   </property>
+   <property name="text">
+    <string>EnterGrade</string>
+   </property>
+  </action>
+  <action name="actionTeaChangPswd">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/acade.png</normaloff>:/icons/acade.png</iconset>
+   </property>
+   <property name="text">
+    <string>TeaChangPswd</string>
+   </property>
+  </action>
+  <action name="actionStudentInfo">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/my.png</normaloff>:/icons/my.png</iconset>
+   </property>
+   <property name="text">
+    <string>StudentInfo</string>
+   </property>
+  </action>
+  <action name="actionStuSchedule">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/schedule.png</normaloff>:/icons/schedule.png</iconset>
+   </property>
+   <property name="text">
+    <string>StuSchedule</string>
+   </property>
+  </action>
+  <action name="actionPickCourse">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/task_online.png</normaloff>:/icons/task_online.png</iconset>
+   </property>
+   <property name="text">
+    <string>PickCourse</string>
+   </property>
+  </action>
+  <action name="actionQueryGrade">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/grade.png</normaloff>:/icons/grade.png</iconset>
+   </property>
+   <property name="text">
+    <string>QueryGrade</string>
+   </property>
+  </action>
+  <action name="actionStuChangePswd">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/acade.png</normaloff>:/icons/acade.png</iconset>
+   </property>
+   <property name="text">
+    <string>StuChangePswd</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

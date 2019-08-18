@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/acade.png</file>
+        <file>icons/action.png</file>
+        <file>icons/back.png</file>
+        <file>icons/class.png</file>
+        <file>icons/exam.png</file>
+        <file>icons/exam_paper.png</file>
+        <file>icons/exam_system.png</file>
+        <file>icons/grade.png</file>
+        <file>icons/group_roll.png</file>
+        <file>icons/learn.png</file>
+        <file>icons/micro_room.png</file>
+        <file>icons/my.png</file>
+        <file>icons/notice.png</file>
+        <file>icons/office.png</file>
+        <file>icons/overturn.png</file>
+        <file>icons/platform.png</file>
+        <file>icons/portal.png</file>
+        <file>icons/position.png</file>
+        <file>icons/recommend.png</file>
+        <file>icons/review.png</file>
+        <file>icons/role.png</file>
+        <file>icons/schedule.png</file>
+        <file>icons/school_bus.png</file>
+        <file>icons/security.png</file>
+        <file>icons/setting.png</file>
+        <file>icons/task.png</file>
+        <file>icons/task_online.png</file>
+        <file>icons/teaches.png</file>
+        <file>icons/test_question.png</file>
+        <file>images/lhlogo.ico</file>
+        <file>images/lhlogo.png</file>
+        <file>images/back.jpg</file>
+    </qresource>
+</RCC>

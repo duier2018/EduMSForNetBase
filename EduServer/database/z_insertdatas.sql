@@ -1,0 +1,86 @@
+delete from elect_info;
+delete from schedule_info;
+delete from student_info;
+delete from teacher_info;
+delete from course_info;
+delete from class_info;
+delete from user_info;
+
+insert into user_info values ('TN-101', '123456', '教职工', '2017-04-26');
+insert into user_info values ('TN-102', '123456', '教职工', '2016-04-26');
+insert into user_info values ('TN-103', '123456', '教职工', '2017-04-26');
+insert into user_info values ('TN-104', '123456', '教职工', '2014-04-26');
+insert into user_info values ('TN-105', '123456', '教职工', '2017-04-26');
+
+insert into user_info values ('SN18-401', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-402', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-403', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-404', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-405', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-406', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-407', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-408', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-409', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-410', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-411', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-412', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-413', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-414', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-415', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-416', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-417', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-418', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-419', '123456', '学生', '2018-12-25');
+insert into user_info values ('SN18-420', '123456', '学生', '2018-12-25');
+
+insert into teacher_info values ('TN-101', '薛老师', '教学部', '班主任');
+insert into teacher_info values ('TN-102', '张老师', '教学部', '讲师');
+insert into teacher_info values ('TN-103', '梦老师', '教学部', '讲师');
+insert into teacher_info values ('TN-104', '任老师', '教学部', '讲师');
+insert into teacher_info values ('TN-105', '吴老师', '教学部', '实习');
+
+insert into student_info values ('SN18-401', '宁缺', '17级', '软件工程');
+insert into student_info values ('SN18-402', '桑桑', '16级', '软件工程');
+insert into student_info values ('SN18-403', '莫山山', '17级', '软件工程');
+insert into student_info values ('SN18-404', '叶逢春', '16级', '软件工程');
+insert into student_info values ('SN18-405', '叶红鱼', '16级', '软件工程');
+insert into student_info values ('SN18-406', '夫子', '16级', '物联网');
+insert into student_info values ('SN18-407', '李慢慢', '17级', '物联网');
+insert into student_info values ('SN18-408', '君陌', '16级', '物联网');
+insert into student_info values ('SN18-409', '魏光明', '17级', '物联网');
+insert into student_info values ('SN18-410', '陈皮皮', '16级', '物联网');
+insert into student_info values ('SN18-411', '张无忌', '17级', '电子信息');
+insert into student_info values ('SN18-412', '赵敏', '16级', '电子信息');
+insert into student_info values ('SN18-413', '周芷若', '17级', '电子信息');
+insert into student_info values ('SN18-414', '小昭', '16级', '电子信息');
+insert into student_info values ('SN18-415', '杨逍', '16级', '电子信息');
+insert into student_info values ('SN18-416', '殷离', '16级', '自动化');
+insert into student_info values ('SN18-417', '范遥', '16级', '自动化');
+insert into student_info values ('SN18-418', '殷天正', '16级', '自动化');
+insert into student_info values ('SN18-419', '韦一笑', '16级', '自动化');
+insert into student_info values ('SN18-420', '朱元璋', '17级', '自动化');
+
+insert into class_info values ('UG-1804', 'BC-36', '实训室一', '50');
+insert into class_info values ('UG-1901', 'BC-37', '实训室二', '45');
+insert into class_info values ('UG-1902', 'BC-38', '实训室一', '50');
+
+insert into course_info values ('BC-101', 'C从入门到精通', '基础课', '90');
+insert into course_info values ('BC-102', '数据结构与算法', '基础课', '36');
+insert into course_info values ('BC-103', 'C++面向对象', '基础课', '60');
+insert into course_info values ('BC-104', 'Qt应用开发', '基础课', '60');
+insert into course_info values ('BC-105', '嵌入式应用开发', '基础课', '36');
+insert into course_info values ('EC-201', '原理图与PCB制板', '选修课', '12');
+insert into course_info values ('EC-202', 'STM32开发基础', '选修课', '60');
+insert into course_info values ('EC-203', 'Python+人工智能', '选修课', '48');
+insert into course_info values ('PC-301', '音乐播放器', '项目课', '24');
+insert into course_info values ('PC-302', '五子棋游戏大厅', '项目课', '24');
+insert into course_info values ('PC-303', 'XX管理系统实现', '项目课', '60');
+insert into course_info values ('PC-304', '智能小车设计', '项目课', '60');
+insert into course_info values ('PC-305', '智能家居设计', '项目课', '48');
+insert into course_info values ('AC-101', 'Linux开发基础', '就业课', '64');
+insert into course_info values ('AC-102', 'Linux服务器开发', '就业课', '24');
+insert into course_info values ('AC-103', '软件架构设计', '就业课', '48');
+insert into course_info values ('AC-104', '就业指导课', '就业课', '12');
+
+create view student_view as select * from student_info natural join user_info;
+create view teacher_view as select * from teacher_info natural join user_info;
